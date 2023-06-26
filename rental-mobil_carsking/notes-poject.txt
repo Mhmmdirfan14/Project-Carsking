@@ -1,0 +1,51 @@
+*Sebelum mencoba project pastikan dulu sudah menginstal composer dan php versi terbaru,
+agar bisa menjalankan hasil projectnya.
+
+1. Koneksi database di Xampp
+- untuk melihat hasil CRUD program terlebih dulu buat database baru pada phpmyadmin di xampp 
+yaitu database dbrentalmobil
+- lalu export database dbrentalmobil.sql yang ada pada folder ini 
+  
+2. Cara menjalankan project
+- ketikan php artisan serve pada terminal aplikasi pengelola source code anda
+- lalu klik tautan yang muncul dan lihat pada mesin pencarian anda seperti chrome
+
+3. folder MVC diantaranya
+> dibagian folder resources > views yang berisikan file:
+  - backend.blade.php
+  - landingpage.blade.php
+  dan folder:
+  - Daftar_mobil didalamnya ada file
+    - daftar_mobil.blade.php 
+    - create_mobil.blade.php
+    - edit_mobil.blade.php
+  - Daftar_sewa didalamya ada file 
+    -  daftar_mobil_tersewa.blade.php
+    -  create_sewa.blade.php
+    -  edit_sewa.blade.php
+  - Merk_mobil didalamnya ada file
+    - merk_mobil.blade.php
+    - create_merk.blade.php
+    - edit_merk.blade.php
+  - Login didalamnya ada file
+    - login_database.blade.php
+    - register.blade.php
+  - Template
+    - footer.blade.php
+    - headerr.blade.php
+    - navbar.blade.php
+    - script.blade.php
+    - sidebar.blade.php
+> dibagian folder app > Models yang berisikan file:
+  - user.php
+  - Merk.php
+  - Mobil.php
+  - Sewa.php
+> dibagian folder app > http > controllers berisikan file 
+  - BackendController.php
+  - DaftarMobil.php
+  - Landingpage.php
+  - LoginCotroller.php 
+  - MerkController.php
+  - MobilTersewa.php
+ 
